@@ -3,7 +3,7 @@ webmclipper
 
 webm conversion gui for ffmpeg
 
-<img src="http://i.imgur.com/NuDiVne.jpg"></img>
+<img src="https://raw.githubusercontent.com/anoncode/webmclipper/master/screen.jpg"></img>
 
 Application requires .Net Framework 4.0
 
