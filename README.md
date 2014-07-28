@@ -19,4 +19,5 @@ The window on the bottom is the ffmpeg commands if you want to hand edit more ad
 
 Tested with ffmpeg-20140407-git-a7a82f2-win64-static from 
 http://ffmpeg.zeranoe.com/builds/
-ffmpeg/ffprobe, put these inside the same folder as webm.exe
+ffmpeg/ffprobe, put these inside the same folder as webm.exe 
+or have ffmpeg/ffprobe installed and withing you environment path.
