@@ -19,7 +19,7 @@ global crop_params=""
 global resize_string=""
 global super_params="{scale:{up:0},gpu:1,rc:false}"
 global analyse_params="{main:{search:{coarse:{distance:-10}}}}"
-global smoothfps_params="{rate:{num:@N,den:@D},algo:2,scene:{mode:0}}"
+global smoothfps_params="{rate:{num:@N,den:@D},algo:2,scene:{limits:{m1:0,m2:0}}}"
 
 global demo_mode=0
 stereo_type=0
