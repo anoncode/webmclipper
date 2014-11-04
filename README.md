@@ -11,11 +11,17 @@ Supports drag and drop of files, paths with special characters will cause things
 
 Bitrate/Filesize is normally calculated to fit the 3MB limit.
 
-Previews, with this checked the start time and end time windows will update with previews.. it's not that fast though and the progress bars next to the length will indicate frame is being decoded. 
+Previews, pressing the In/Out button will load the In/Out time it's not that fast though and the progress bar next to the bitrate will indicate the frame is being decoded. 
 
 When editing the length/end time will update the length/end time, by default the entire clip is set to be converted.
 
 The window on the bottom is the ffmpeg commands if you want to hand edit more advanced commands; the Show commands button updates it.
+
+Avisynth support for ffmpeg; The following tokens in the avs file will be replaced automatically upon conversion:
+@I : input video file
+@F : frame rate (read from the video file)
+@N : Whole part of framerate multiplier
+@D : Fractional part of framerate multipler
 
 Tested with ffmpeg-20140407-git-a7a82f2-win64-static from 
 http://ffmpeg.zeranoe.com/builds/
