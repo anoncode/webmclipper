@@ -23,7 +23,8 @@ Avisynth support for ffmpeg; The following tokens in the avs file will be replac
 @N : Whole part of framerate multiplier
 @D : Fractional part of framerate multipler
 
-Tested with ffmpeg-20140407-git-a7a82f2-win64-static from 
+Tested with ffmpeg-20150115-git-cd960c8-win64-static.7z from 
 http://ffmpeg.zeranoe.com/builds/
 ffmpeg/ffprobe, put these inside the same folder as webm.exe 
 or have ffmpeg/ffprobe installed and withing you environment path.
+newer versions of ffmpeg than 20150115 aren't compatible.
